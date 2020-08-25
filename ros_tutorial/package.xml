@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ros_tutorial</name>
+  <version>0.0.0</version>
+  <description>ros_tutorial</description>
+
+  <maintainer email="jhshim@robotis.com">Ryan Shim</maintainer>
+  <license>Apache 2.0</license>
+  <url type="repository">https://github.com/rjshim/ros_tutorial</url>
+  <author email="jhshim@robotis.com">Ryan Shim</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>ros_tutorial_cpp</exec_depend>
+  <exec_depend>ros_tutorial_euslisp</exec_depend>
+  <exec_depend>ros_tutorial_js</exec_depend>
+  <exec_depend>ros_tutorial_py</exec_depend>
+
+  <export><metapackage/></export>
+</package>

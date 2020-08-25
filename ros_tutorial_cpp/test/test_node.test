@@ -1,0 +1,3 @@
+<launch>
+  <test test-name="test_node" pkg="ros_tutorial_cpp" type="test_node"/>
+</launch>

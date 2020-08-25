@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch" />
+
+  <node name="talker" pkg="ros_tutorial_js" type="talker.sh" output="screen"/>
+</launch>

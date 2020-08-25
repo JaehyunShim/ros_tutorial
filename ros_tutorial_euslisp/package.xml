@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ros_tutorial_euslisp</name>
+  <version>0.0.0</version>
+  <description>ros_tutorial_euslisp</description>
+
+  <maintainer email="jhshim@robotis.com">Ryan Shim</maintainer>
+  <license>Apache 2.0</license>
+  <url type="repository">https://github.com/rjshim/ros_tutorial</url>
+  <author email="jhshim@robotis.com">Ryan Shim</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>std_msgs</depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+</package>
